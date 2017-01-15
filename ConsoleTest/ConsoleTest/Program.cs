@@ -11,6 +11,7 @@ namespace ConsoleTest
         static void Main(string[] args)
         {            
             WriteMe("Hello");
+            Console.WriteLine("New feature");
             Console.ReadLine();
         }
 

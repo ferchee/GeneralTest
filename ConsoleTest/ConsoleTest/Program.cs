@@ -9,9 +9,14 @@ namespace ConsoleTest
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello");
+        {            
+            WriteMe("Hello");
             Console.ReadLine();
+        }
+
+        private static void WriteMe(string v)
+        {
+            Console.WriteLine(v);
         }
     }
 }

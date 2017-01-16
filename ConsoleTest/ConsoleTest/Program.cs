@@ -11,6 +11,7 @@ namespace ConsoleTest
         static void Main(string[] args)
         {            
             WriteMe("Hello");
+
             Console.WriteLine("New feature");
             Console.ReadLine();
         }
@@ -18,6 +19,11 @@ namespace ConsoleTest
         private static void WriteMe(string v)
         {
             Console.WriteLine(v);
+        }
+
+        private static int Sum(int a, int b)
+        {
+            return a+b;
         }
     }
 }
